@@ -3,7 +3,6 @@
 * {
    box-sizing: border-box;
     font-family: Inter, sans-serif;
-    color: rgb(36, 62, 99);
     margin: 0px;
     padding: 0px;
     text-decoration: none;
@@ -16,6 +15,7 @@ html {
 body {
     max-width: 100vw;
     overflow-x: hidden;
+    color: rgb(36, 62, 99);
 }
 
 section {
@@ -963,6 +963,12 @@ TESTINMONIALS
     display: inline-block;
     height: 1.25rem;
     width: 1.25rem;
+}
+
+.testimonial__rating .fa-star,
+.testimonial__rating .fa-star path {
+  color: rgb(246, 173, 85);
+  fill: rgb(246, 173, 85);
 }
 
 .testimonial__title {
